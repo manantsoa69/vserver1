@@ -2,6 +2,8 @@
 const express = require('express');
 const responseTime = require('response-time');
 const compression = require('compression'); // Import the compression middleware
+const pm2 = require('pm2');
+// Your code using pm2 comes here
 
 
 require('dotenv').config();
